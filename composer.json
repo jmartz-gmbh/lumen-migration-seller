@@ -1,0 +1,31 @@
+{
+    "name": "jmartz-gmbh/lumen-migration-seller",
+    "description": "Php Lumen Seller Migration",
+    "require": {
+        "php": "^7.3|^7.4|^8.0",
+        "illuminate/http": "^7.3.0|^8.0",
+        "illuminate/support": "^7.3.0|^8.0",
+        "illuminate/database": "^7.3.0|^8.0"
+    },
+    "autoload": {
+        "classmap": [
+            "migrations",
+            "providers"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Jonathan Martz",
+            "email": "composer@jmartz.de",
+            "homepage": "https://www.jmartz.de",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "App\\Providers\\SellerMigrationProvider"
+            ]
+        }
+    }
+}
